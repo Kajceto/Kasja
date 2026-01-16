@@ -1,0 +1,46 @@
+﻿Work Item Type;Title1 (Epic);Title 2 (User story/Task);Title 3;Estimate
+Epic;PTMS - Public Transportation Managment System;;;
+Epic;User Managment;;;
+User story;;User Registration and authentication;;5
+Task;;;Design authentication flow;
+Task;;;Implement role-based access control;
+Test case;;;Verify secure login and access;
+Epic;Passenger services;;Account lock after multiple failed logins;
+;;;Password reset and email verification;
+;;;User profile update;
+User Story;;Real-time schedule visualization;;5
+Task;;;Integrate live vehicle data;
+Test case;;;Validate real-time updates;
+;;;Handle service disruption notifications;
+;;;Optimize refresh rate for performance;
+Epic;Vehicle tracking;;Filter schedules by line and stop;
+User story;;Vehicle tracking on map;;5
+;;;Refresh vehicle positions in real time;
+;;;Show vehicle direction and speed;
+Task;;;Map and GPS integration;
+Test case;;;Verify vehicle position accuracy;
+Epic;NFC Passenger Registration;;Fallback behaviour when GPS signal is lost;
+User story;;NFC-based passenger registration;;8
+;;;Sync offline NFC records when reconnected;
+;;;Store entry/exit timestamps;
+Task;;;Implement IoT - NFC communication ;
+Test case;;;Verify encrypted NFC communication;
+Epic;Operator Managment;;Handle duplicated or failed NFC scans;
+User story;;Route, stop and service managment;;5
+;;;Publish extraordinary traffic notifications;
+;;;Versioning of routes and schedules;
+Task;;;CRUD (create,read, update, delete) routes and stops;
+Test case;;;Validate route changes;
+Epic;Reporting and Statistics;;Assign vehicles to routes;
+User story;;Passenger reporting and statistics;;5
+;;;View reported incidents on map;
+;;;Export statistics reports (PDF/CSV);
+Task;;;Implement reporting module;
+Test case;;;verify reports and statistics;
+;;;Aggregate usage statistics per line;
+Epic;non-funcional Requirements;;Aggregate  statistics per time period;
+User story;;Security and performance compliance;;8
+;;;Monitor system availability (99.5%);
+Task;;;Encrypt all communication channels;
+Test case;;;Validate performance <500ms;
+;;;Scalability testing under load;
